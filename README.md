@@ -22,10 +22,18 @@ Follow [Ceres Installation](http://ceres-solver.org/installation.html).
 
 ### 3. **Support file from VINS-Fusion**
 
-Due to the limiting file size of Github, we need **two** files from the [VINS-Fusion repository](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/tree/master/support_files).
+Due to the limiting file size of Github, we need **one** package and **two** files from the [VINS-Fusion repository](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/tree/master/support_files).
 
-1. Copy `support_files/brief_k10L6.bin` in VINS-Fusion into our `support_files` folder 
-2. Copy `support_files/brief_pattern.yml` in VINS-Fusion into our `support_files` folder
+1. Set the `camera_models` package in your workspace, which is included in VINS-Fusion.
+2. Copy `support_files/brief_k10L6.bin` in VINS-Fusion into our `support_files` folder.
+2. Copy `support_files/brief_pattern.yml` in VINS-Fusion into our `support_files` folder.
+
+### 4. **Other support files**
+
+Due to the limiting file size of Github, we need **two** packages from the [catkin_simple repository](https://github.com/catkin/catkin_simple) and the [rpg_dvs_ros repository](https://github.com/uzh-rpg/rpg_dvs_ros), respectively.
+
+1. Set the `catkin_simple` package in your workspace.
+2. Set the `rpg_dvs_ros` package in your workspace. 
 
 ## :building_construction: How to build
 
