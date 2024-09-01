@@ -68,7 +68,11 @@ $ rosbag play Dense_street_day_easy_a.bag.bag (or Dense_street_day_easy_b.bag, .
 ## :bookmark: Acknowledgements
 
 The authors of: [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)
+
 The authors of: [dynaVINS](https://github.com/url-kaist/dynaVINS)
+
 The authors of: [VIODE](https://github.com/kminoda/VIODE)
+
 The authors of: [ECMD](https://arclab-hku.github.io/ecmd/)
+
 The authors of: [evo](https://github.com/MichaelGrupp/evo)
