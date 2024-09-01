@@ -1,0 +1,8 @@
+<launch>
+    <node name="vins_estimator" pkg="EE-VINS" type="vins_node" output="screen"
+        args="$(find EE-VINS)/config/ECMD/calibration_mono.yaml">
+    </node>
+    
+    <node name="rviz_EE_VINS" pkg="rviz" type="rviz" args="-d $(find EE-VINS)/config/vins_rviz_config.rviz"/>
+
+</launch>
